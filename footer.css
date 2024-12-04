@@ -1,0 +1,45 @@
+.footer{
+    background-color: black;
+    color: white;
+    height: 450px;
+    
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    
+}
+.div{
+    margin-left: 20px;
+    
+}
+h2{
+    /* text-decoration: underline; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h2::after {
+    content: '';
+    /* color: red; */
+    background: red;
+    width: 40%;
+    height: 5px;
+}
+
+.icon{
+    font-size: xx-large;
+}
+.icon:hover{
+    color: orange;
+}
+
+.list:hover{font-size:130%; transition: 0.4s ease;}
+
+/* .list:link{color: red;} */
+/* .list:visited{color: blue;} */
+.list:hover{color: rgb(187, 230, 18);}
+/* .list:active{color: aquamarine;} */
