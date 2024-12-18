@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cal.css">
+</head>
+<center>
+<body>
+   
+    <table border="3">
+        <caption>SIMPLE CALCULATOR</caption>
+        <tr>
+            <td colspan="3"><input type="text" id="res" size=23% style="padding: 10px; font-size: large; font-weight: bolder;"></td>
+            <td> <button type="submit" onclick="ac()">AC</button></td>
+        </tr>
+        <tr>
+            <td> <button type="submit" onclick="show(1)" id="res">1</button></td>
+            <td> <button type="submit" onclick="show(2)" id="res">2</button></td>
+            <td> <button type="submit" onclick="show(3)" id="res">3</button></td>
+            <td> <button type="submit" onclick="show('+')" id="res">+</button></td>
+        </tr>
+        <tr>
+            <td> <button type="submit" onclick="show(4)" id="res">4</button></td>
+            <td> <button type="submit" onclick="show(5)" id="res">5</button></td>
+            <td> <button type="submit" onclick="show(6)" id="res">6</button></td>
+            <td> <button type="submit" onclick="show('-')" id="res">-</button></td>
+        </tr>
+        <tr>
+            <td> <button type="submit" onclick="show(7)" id="res">7</button></td>
+            <td> <button type="submit" onclick="show(8)" id="res">8</button></td>
+            <td> <button type="submit" onclick="show(9)" id="res">9</button></td>
+            <td> <button type="submit" onclick="show('*')" id="res">*</button></td>
+        </tr>
+        <tr>
+            <td> <button type="submit" onclick="show(0)" id="res">0</button></td>
+            <td> <button type="submit" onclick="show('%')" id="res">%</button></td>
+            <td> <button type="submit" onclick="show('/')" id="res">/</button></td>
+            <td> <button type="submit" onclick="cal('=')" id="res">=</button></td>
+        </tr>
+    </table>
+    <script src="cal.js"></script> 
+</body>
+</center>
+</html>

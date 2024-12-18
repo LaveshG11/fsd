@@ -1,0 +1,31 @@
+table
+{
+    height: 400px;
+    width: 25%;
+}
+
+button
+{
+    background-color: brown;
+    color: aquamarine;
+    width: 97.5%;
+    padding: 0px;
+    height: 95%;
+    margin-left: 1.5px;
+    font-size: x-large;
+}
+td
+{
+    background: radial-gradient(rgb(254, 112, 174), lightcoral );
+    width: 27%;
+}
+
+caption
+{
+    background: radial-gradient(rgb(107, 247, 167), rgb(15, 90, 25));
+    color: white ;
+    height: 50px;
+    margin-top: 25px;
+    padding-top: 15px;
+    font-size: xx-large;
+}
